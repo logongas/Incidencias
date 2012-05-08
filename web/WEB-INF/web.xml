@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <display-name>aaaaaaaaaaaaaaaaa</display-name>
+    <context-param>
+        <description>El Path del diccionario de ELF.</description>
+        <param-name>elf.startup.dictionaryUri</param-name>
+        <param-value>pepe</param-value>
+    </context-param>
+    <context-param>
+        <description>El paquete donde se encuentran los controladores de las paginas Web</description>
+        <param-name>elf.startup.controllers.default.packagename</param-name>
+        <param-value>es.logongas.incidencias.controllers</param-value>
+    </context-param>
+    <context-param>
+        <description>La FQCN que permite lanzar un executeQuery desde una pagina.Debe implementar WebConnection</description>
+        <param-name>elf.startup.webconnection.fqcn</param-name>
+        <param-value/>
+    </context-param>
+    <context-param>
+        <description>La FQCN de clase de seguridad.Debe implementar KernelAuthorizationFactory.Si esta vacio se usara org.elf.weblayer.kernel.security.KernelAuthorizationFactoryImplHardwired</description>
+        <param-name>elf.startup.kernelauthorizationfactory.fqcn</param-name>
+        <param-value>es.logongas.incidencias.security.KernelAuthorizationFactoryImplDeveloper,es.logongas.incidencias.security.KernelAuthorizationFactoryImplIncidencias,org.elf.weblayer.kernel.security.KernelAuthorizationFactoryImplHardwired</param-value>
+    </context-param>
+    <context-param>
+        <description>La FQCN de clase que carga los diccionario.Debe extender de DictionaryLoaders.</description>
+        <param-name>elf.startup.dictionaryLoaders.fqcn</param-name>
+        <param-value>es.logongas.incidencias.DictionaryLoadersMatricula</param-value>
+    </context-param>
+    <context-param>
+        <description>El fichero de log</description>
+        <param-name>elf.startup.log.fileName</param-name>
+        <param-value>c:\incidencias.log</param-value>
+    </context-param>
+    <filter>
+        <filter-name>FilterSession</filter-name>
+        <filter-class>org.elf.weblayer.kernel.FilterSession</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>FilterSession</filter-name>
+        <url-pattern>/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+    </filter-mapping>
+    <listener>
+        <listener-class>org.elf.weblayer.kernel.StartupServlet</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>FrontController</servlet-name>
+        <servlet-class>org.elf.weblayer.kernel.FrontController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FrontController</servlet-name>
+        <url-pattern>/controls/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FrontController</servlet-name>
+        <url-pattern>/controller/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FrontController</servlet-name>
+        <url-pattern>/common/*</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <error-page>
+        <error-code>401</error-code>
+        <location>/error401.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>403</error-code>
+        <location>/error403.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error404.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/error500.jsp</location>
+    </error-page>
+    <resource-ref>
+        <res-ref-name>DATOS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+        <res-sharing-scope>Shareable</res-sharing-scope>
+    </resource-ref>
+    <resource-ref>
+        <res-ref-name>mail/MailSession</res-ref-name>
+        <res-type>javax.mail.Session</res-type>
+        <res-auth>Container</res-auth>
+        <res-sharing-scope>Shareable</res-sharing-scope>
+    </resource-ref>
+</web-app>
