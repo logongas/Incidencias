@@ -68,7 +68,7 @@
     nbproject/build-impl.xml file. 
 
     -->
-    <target name="deployProduction" depends="enableProduccion,dist,-deployProduccion" >
+    <target name="deployProduction" depends="-enableProduccion,dist,-deployProduccion" >
       <!-- Para poder compilar se necesitan las variables
             j2ee.server.home <- Path de una carpeta que contiene la subcarpeta /lib con el fichero servlet-api.jar
             libs.CopyLibs.classpath <- Path con el fichero org-netbeans-modules-java-j2seproject-copylibstask.jar
@@ -122,7 +122,7 @@
         </xmltask>
     </target>
 
-    <target name="-pre-dist-configureProduccion" if="-enableProduccion" >
+    <target name="-pre-dist-configureProduccion" if="enableProduccion" >
         <echo>Configurando para producción</echo>
 
         <!-- propiedades del entorno de producción -->
