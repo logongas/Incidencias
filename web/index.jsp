@@ -61,7 +61,7 @@ buttonEntrar.setDefaultButton(true);
                 <%=frame.toHTML() %>
             </td><td>&nbsp;</td>
         </tr>
-        <tr><td colspan="3" class="text" style="text-align: center;font-size: 10px;padding-bottom: 4px;">&copy; 2009-<%=(new DLDateTime()).getDateParts().getYear() %> - Lorenzo González <script>document.write("(lorenzo.profesor"); document.write(" AT "); document.write("gmail.com) ");</script>- v.$$num_compilation$$</td></tr>
+        <tr><td colspan="3" class="text" style="text-align: center;font-size: 10px;padding-bottom: 4px;">&copy; 2009-<%=(new DLDateTime()).getDateParts().getYear() %> - Lorenzo González <script>document.write("(lorenzo.profesor"); document.write(" AT "); document.write("gmail.com) ");</script>- v.#num_compilation#</td></tr>
     </table>
 </body>
 </html>
