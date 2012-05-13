@@ -121,7 +121,7 @@
 		<field name="ForceCase" xsi:nil="true"/>
 		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
 		<field name="ReadOnlyAtUpdate">1</field>
-		<field name="Caption">CodAula</field>
+		<field name="Caption">Aula</field>
 		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
