@@ -1,11 +1,10 @@
-<?xml version="1.0"?>
-<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <database name="incidencias_dic">
 	<table_structure name="bl_datatype">
-		<field Field="DataType" Type="int(11)" Null="NO" Key="PRI" Extra="" Comment="" />
-		<field Field="Description" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<key Table="bl_datatype" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="DataType" Collation="A" Cardinality="13" Null="" Index_type="BTREE" Comment="" Index_comment="" />
-		<options Name="bl_datatype" Engine="MyISAM" Version="10" Row_format="Dynamic" Rows="13" Avg_row_length="20" Data_length="260" Max_data_length="281474976710655" Index_length="2048" Data_free="0" Create_time="2011-10-10 08:10:55" Update_time="2011-10-10 08:10:56" Collation="utf8_general_ci" Create_options="" Comment="" />
+		<field Comment="" Extra="" Field="DataType" Key="PRI" Null="NO" Type="int(11)"/>
+		<field Comment="" Extra="" Field="Description" Key="" Null="YES" Type="varchar(255)"/>
+		<key Cardinality="13" Collation="A" Column_name="DataType" Comment="" Index_comment="" Index_type="BTREE" Key_name="PRIMARY" Non_unique="0" Null="" Seq_in_index="1" Table="bl_datatype"/>
+		<options Avg_row_length="20" Collation="utf8_general_ci" Comment="" Create_options="" Create_time="2011-10-10 08:10:55" Data_free="0" Data_length="260" Engine="MyISAM" Index_length="2048" Max_data_length="281474976710655" Name="bl_datatype" Row_format="Dynamic" Rows="13" Update_time="2011-10-10 08:10:56" Version="10"/>
 	</table_structure>
 	<table_data name="bl_datatype">
 	<row>
@@ -62,40 +61,40 @@
 	</row>
 	</table_data>
 	<table_structure name="bl_defcolumn">
-		<field Field="TableName" Type="varchar(150)" Null="NO" Key="PRI" Extra="" Comment="" />
-		<field Field="ColumnName" Type="varchar(150)" Null="NO" Key="PRI" Extra="" Comment="" />
-		<field Field="ColumnIndex" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="DataType" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="PrimaryKey" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="Length" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="Decimals" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="Virtual" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="DefaultValue" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="SqlSearch" Type="longtext" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="SqlDescription" Type="longtext" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="UseBusinessConnection" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="DependColumns" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="FilterName" Type="varchar(150)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="Required" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="Pattern" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="ForbiddenZero" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="ForbiddenNegative" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="MaxValue" Type="double" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="MinValue" Type="double" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="ForceCase" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="ReadOnlyAtInsert" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="ReadOnlyAtUpdate" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="Caption" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="Comment" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="Multivalue" Type="int(11)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="MinMultiplicity" Type="int(11)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="MaxMultiplicity" Type="int(11)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="SqlGetAllMultivalues" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="SqlInsertSingleMultivalue" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="SqlDeleteSingleMultivalue" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<key Table="bl_defcolumn" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="TableName" Collation="A" Null="" Index_type="BTREE" Comment="" Index_comment="" />
-		<key Table="bl_defcolumn" Non_unique="0" Key_name="PRIMARY" Seq_in_index="2" Column_name="ColumnName" Collation="A" Cardinality="33" Null="" Index_type="BTREE" Comment="" Index_comment="" />
-		<options Name="bl_defcolumn" Engine="MyISAM" Version="10" Row_format="Dynamic" Rows="33" Avg_row_length="146" Data_length="4844" Max_data_length="281474976710655" Index_length="8192" Data_free="0" Create_time="2011-11-18 09:53:16" Update_time="2012-04-21 19:35:32" Collation="utf8_general_ci" Create_options="" Comment="" />
+		<field Comment="" Extra="" Field="TableName" Key="PRI" Null="NO" Type="varchar(150)"/>
+		<field Comment="" Extra="" Field="ColumnName" Key="PRI" Null="NO" Type="varchar(150)"/>
+		<field Comment="" Extra="" Field="ColumnIndex" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="DataType" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="PrimaryKey" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="Length" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="Decimals" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="Virtual" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="DefaultValue" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="SqlSearch" Key="" Null="YES" Type="longtext"/>
+		<field Comment="" Extra="" Field="SqlDescription" Key="" Null="YES" Type="longtext"/>
+		<field Comment="" Extra="" Field="UseBusinessConnection" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="DependColumns" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="FilterName" Key="" Null="YES" Type="varchar(150)"/>
+		<field Comment="" Extra="" Field="Required" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="Pattern" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="ForbiddenZero" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="ForbiddenNegative" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="MaxValue" Key="" Null="YES" Type="double"/>
+		<field Comment="" Extra="" Field="MinValue" Key="" Null="YES" Type="double"/>
+		<field Comment="" Extra="" Field="ForceCase" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="ReadOnlyAtInsert" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="ReadOnlyAtUpdate" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="Caption" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="Comment" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Default="0" Extra="" Field="Multivalue" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Default="0" Extra="" Field="MinMultiplicity" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Default="0" Extra="" Field="MaxMultiplicity" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="SqlGetAllMultivalues" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="SqlInsertSingleMultivalue" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="SqlDeleteSingleMultivalue" Key="" Null="YES" Type="varchar(255)"/>
+		<key Collation="A" Column_name="TableName" Comment="" Index_comment="" Index_type="BTREE" Key_name="PRIMARY" Non_unique="0" Null="" Seq_in_index="1" Table="bl_defcolumn"/>
+		<key Cardinality="33" Collation="A" Column_name="ColumnName" Comment="" Index_comment="" Index_type="BTREE" Key_name="PRIMARY" Non_unique="0" Null="" Seq_in_index="2" Table="bl_defcolumn"/>
+		<options Avg_row_length="146" Collation="utf8_general_ci" Comment="" Create_options="" Create_time="2011-11-18 09:53:16" Data_free="0" Data_length="4844" Engine="MyISAM" Index_length="8192" Max_data_length="281474976710655" Name="bl_defcolumn" Row_format="Dynamic" Rows="33" Update_time="2012-04-21 19:35:32" Version="10"/>
 	</table_structure>
 	<table_data name="bl_defcolumn">
 	<row>
@@ -104,65 +103,65 @@
 		<field name="ColumnIndex">0</field>
 		<field name="DataType">0</field>
 		<field name="PrimaryKey">1</field>
-		<field name="Length" xsi:nil="true" />
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
+		<field name="Length" xsi:nil="true"/>
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
 		<field name="ReadOnlyAtUpdate">1</field>
 		<field name="Caption">CodAula</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
 		<field name="MaxMultiplicity">0</field>
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Aula</field>
 		<field name="ColumnName">Descripcion</field>
 		<field name="ColumnIndex">1</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
 		<field name="Length">50</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Descripcion</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
 		<field name="MaxMultiplicity">0</field>
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Usuario</field>
@@ -171,31 +170,31 @@
 		<field name="DataType">0</field>
 		<field name="PrimaryKey">1</field>
 		<field name="Length">50</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
 		<field name="UseBusinessConnection">0</field>
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
 		<field name="Required">2</field>
 		<field name="Pattern">[.a-zñçA-ZÑÇ0-9_]+</field>
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
 		<field name="ReadOnlyAtUpdate">1</field>
 		<field name="Caption">Usuario</field>
-		<field name="Comment" xsi:nil="true" />
-		<field name="Multivalue" xsi:nil="true" />
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
+		<field name="Multivalue" xsi:nil="true"/>
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Estado</field>
@@ -203,298 +202,298 @@
 		<field name="ColumnIndex">0</field>
 		<field name="DataType">0</field>
 		<field name="PrimaryKey">1</field>
-		<field name="Length" xsi:nil="true" />
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="Length" xsi:nil="true"/>
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">CodEstado</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
 		<field name="MaxMultiplicity">0</field>
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Estado</field>
 		<field name="ColumnName">Descripcion</field>
 		<field name="ColumnIndex">1</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
 		<field name="Length">50</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Descripcion</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
 		<field name="MaxMultiplicity">0</field>
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Incidencia</field>
 		<field name="ColumnName">CodAula</field>
 		<field name="ColumnIndex">4</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
 		<field name="Length">8</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
 		<field name="SqlSearch">SELECT A.CodAula,A.Descripcion FROM Aula A,ProyectoAula PA
 WHERE PA.CodAula=A.CodAula AND PA.IdProyecto=?</field>
 		<field name="SqlDescription">SELECT A.Descripcion FROM Aula A,ProyectoAula PA
 WHERE PA.CodAula=A.CodAula AND A.CodAula=? AND PA.IdProyecto=? </field>
-		<field name="UseBusinessConnection" xsi:nil="true" />
+		<field name="UseBusinessConnection" xsi:nil="true"/>
 		<field name="DependColumns">IdProyecto</field>
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Aula</field>
 		<field name="Comment">Aula del centro</field>
-		<field name="Multivalue" xsi:nil="true" />
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="Multivalue" xsi:nil="true"/>
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Incidencia</field>
 		<field name="ColumnName">CodEstado</field>
 		<field name="ColumnIndex">5</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
 		<field name="Length">4</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
 		<field name="DefaultValue">A</field>
 		<field name="SqlSearch">SELECT CodEstado,Descripcion FROM Estado ORDER BY Descripcion</field>
 		<field name="SqlDescription">SELECT Descripcion FROM Estado WHERE CodEstado=?</field>
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
 		<field name="Required">2</field>
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Estado</field>
 		<field name="Comment">Estado en el que se encuentra la incidencia</field>
-		<field name="Multivalue" xsi:nil="true" />
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="Multivalue" xsi:nil="true"/>
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Incidencia</field>
 		<field name="ColumnName">Descripcion</field>
 		<field name="ColumnIndex">3</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
 		<field name="Length">255</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Descripción</field>
-		<field name="Comment" xsi:nil="true" />
-		<field name="Multivalue" xsi:nil="true" />
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
+		<field name="Multivalue" xsi:nil="true"/>
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Incidencia</field>
 		<field name="ColumnName">Duracion</field>
 		<field name="ColumnIndex">9</field>
 		<field name="DataType">3</field>
-		<field name="PrimaryKey" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
 		<field name="Length">7</field>
-		<field name="Decimals" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
 		<field name="Virtual">1</field>
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
 		<field name="ForbiddenZero">0</field>
 		<field name="ForbiddenNegative">1</field>
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
 		<field name="ReadOnlyAtInsert">1</field>
 		<field name="ReadOnlyAtUpdate">1</field>
 		<field name="Caption">Duración</field>
 		<field name="Comment">Duración de la incidencia</field>
-		<field name="Multivalue" xsi:nil="true" />
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="Multivalue" xsi:nil="true"/>
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Incidencia</field>
 		<field name="ColumnName">Explicacion</field>
 		<field name="ColumnIndex">6</field>
 		<field name="DataType">11</field>
-		<field name="PrimaryKey" xsi:nil="true" />
-		<field name="Length" xsi:nil="true" />
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
+		<field name="Length" xsi:nil="true"/>
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Description de la incidencia</field>
 		<field name="Comment">Description de la incidencia</field>
-		<field name="Multivalue" xsi:nil="true" />
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="Multivalue" xsi:nil="true"/>
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Incidencia</field>
 		<field name="ColumnName">FechaApertura</field>
 		<field name="ColumnIndex">7</field>
 		<field name="DataType">9</field>
-		<field name="PrimaryKey" xsi:nil="true" />
-		<field name="Length" xsi:nil="true" />
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
+		<field name="Length" xsi:nil="true"/>
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
 		<field name="ReadOnlyAtInsert">1</field>
 		<field name="ReadOnlyAtUpdate">1</field>
 		<field name="Caption">Fecha de Apertura</field>
-		<field name="Comment" xsi:nil="true" />
-		<field name="Multivalue" xsi:nil="true" />
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
+		<field name="Multivalue" xsi:nil="true"/>
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Incidencia</field>
 		<field name="ColumnName">FechaCierre</field>
 		<field name="ColumnIndex">8</field>
 		<field name="DataType">9</field>
-		<field name="PrimaryKey" xsi:nil="true" />
-		<field name="Length" xsi:nil="true" />
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
+		<field name="Length" xsi:nil="true"/>
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
 		<field name="ReadOnlyAtInsert">1</field>
 		<field name="ReadOnlyAtUpdate">1</field>
 		<field name="Caption">Fecha de Cierre</field>
-		<field name="Comment" xsi:nil="true" />
-		<field name="Multivalue" xsi:nil="true" />
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
+		<field name="Multivalue" xsi:nil="true"/>
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Incidencia</field>
@@ -503,42 +502,42 @@ WHERE PA.CodAula=A.CodAula AND A.CodAula=? AND PA.IdProyecto=? </field>
 		<field name="DataType">3</field>
 		<field name="PrimaryKey">1</field>
 		<field name="Length">6</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
 		<field name="Required">2</field>
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
 		<field name="ReadOnlyAtInsert">1</field>
 		<field name="ReadOnlyAtUpdate">1</field>
 		<field name="Caption">Nº</field>
-		<field name="Comment" xsi:nil="true" />
-		<field name="Multivalue" xsi:nil="true" />
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
+		<field name="Multivalue" xsi:nil="true"/>
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Incidencia</field>
 		<field name="ColumnName">IdProyecto</field>
 		<field name="ColumnIndex">2</field>
 		<field name="DataType">3</field>
-		<field name="PrimaryKey" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
 		<field name="Length">5</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
 		<field name="SqlSearch">SELECT Proyecto.IdProyecto,Descripcion 
 FROM Proyecto,ProyectoUser 
 WHERE Proyecto.IdProyecto=ProyectoUser.IdProyecto AND Login=${Login}
@@ -546,158 +545,158 @@ WHERE Proyecto.IdProyecto=ProyectoUser.IdProyecto AND Login=${Login}
 		<field name="SqlDescription">SELECT Descripcion 
 FROM Proyecto,ProyectoUser 
 WHERE Proyecto.IdProyecto=? AND Proyecto.IdProyecto=ProyectoUser.IdProyecto AND Login=${Login}</field>
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
 		<field name="Required">2</field>
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
 		<field name="ReadOnlyAtUpdate">1</field>
 		<field name="Caption">Proyecto</field>
 		<field name="Comment">Proyecto en el que se ha producido la incidencia</field>
-		<field name="Multivalue" xsi:nil="true" />
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="Multivalue" xsi:nil="true"/>
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Incidencia</field>
 		<field name="ColumnName">Login</field>
 		<field name="ColumnIndex">1</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
 		<field name="Length">20</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
 		<field name="SqlSearch">SELECT Login,CONCAT_WS(' ',Nombre,Ape1,Ape2) FROM Usuario</field>
 		<field name="SqlDescription">SELECT CONCAT_WS(' ',Nombre,Ape1,Ape2) FROM Usuario WHERE Login=?</field>
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
 		<field name="Required">2</field>
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
 		<field name="ReadOnlyAtInsert">1</field>
 		<field name="ReadOnlyAtUpdate">1</field>
 		<field name="Caption">Solicitante</field>
 		<field name="Comment">Login de la persona que realiza la incidencia</field>
-		<field name="Multivalue" xsi:nil="true" />
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="Multivalue" xsi:nil="true"/>
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">IncidenciaTarea</field>
 		<field name="ColumnName">Descripcion</field>
 		<field name="ColumnIndex">5</field>
 		<field name="DataType">11</field>
-		<field name="PrimaryKey" xsi:nil="true" />
-		<field name="Length" xsi:nil="true" />
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
+		<field name="Length" xsi:nil="true"/>
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Descripcion</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
 		<field name="MaxMultiplicity">0</field>
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">IncidenciaTarea</field>
 		<field name="ColumnName">Duracion</field>
 		<field name="ColumnIndex">4</field>
 		<field name="DataType">3</field>
-		<field name="PrimaryKey" xsi:nil="true" />
-		<field name="Length" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
+		<field name="Length" xsi:nil="true"/>
 		<field name="Decimals">6</field>
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
 		<field name="ForbiddenZero">1</field>
 		<field name="ForbiddenNegative">1</field>
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Duracion</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
 		<field name="MaxMultiplicity">0</field>
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">IncidenciaTarea</field>
 		<field name="ColumnName">Fecha</field>
 		<field name="ColumnIndex">3</field>
 		<field name="DataType">9</field>
-		<field name="PrimaryKey" xsi:nil="true" />
-		<field name="Length" xsi:nil="true" />
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
+		<field name="Length" xsi:nil="true"/>
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
 		<field name="ReadOnlyAtInsert">0</field>
 		<field name="ReadOnlyAtUpdate">0</field>
 		<field name="Caption">Fecha</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
 		<field name="MaxMultiplicity">0</field>
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">IncidenciaTarea</field>
@@ -705,32 +704,32 @@ WHERE Proyecto.IdProyecto=? AND Proyecto.IdProyecto=ProyectoUser.IdProyecto AND 
 		<field name="ColumnIndex">0</field>
 		<field name="DataType">3</field>
 		<field name="PrimaryKey">1</field>
-		<field name="Length" xsi:nil="true" />
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="Length" xsi:nil="true"/>
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">IdIncidencia</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
 		<field name="MaxMultiplicity">0</field>
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">IncidenciaTarea</field>
@@ -738,95 +737,95 @@ WHERE Proyecto.IdProyecto=? AND Proyecto.IdProyecto=ProyectoUser.IdProyecto AND 
 		<field name="ColumnIndex">1</field>
 		<field name="DataType">3</field>
 		<field name="PrimaryKey">1</field>
-		<field name="Length" xsi:nil="true" />
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
+		<field name="Length" xsi:nil="true"/>
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
 		<field name="ReadOnlyAtInsert">1</field>
 		<field name="ReadOnlyAtUpdate">1</field>
 		<field name="Caption">IdTarea</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
 		<field name="MaxMultiplicity">0</field>
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">IncidenciaTarea</field>
 		<field name="ColumnName">Login</field>
 		<field name="ColumnIndex">2</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
-		<field name="Length" xsi:nil="true" />
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
+		<field name="Length" xsi:nil="true"/>
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
 		<field name="SqlSearch">SELECT U.Login,CONCAT_WS(' ',Nombre,Ape1,Ape2)  FROM Usuario U ,ProyectoUser PU,Incidencia I WHERE  PU.Login=U.Login AND PU.IdProyecto=I.IdProyecto AND I.IdIncidencia=?</field>
 		<field name="SqlDescription">SELECT CONCAT_WS(' ',Nombre,Ape1,Ape2)  FROM Usuario U ,ProyectoUser PU,Incidencia I  WHERE U.Login=? AND PU.Login=U.Login AND PU.IdProyecto=I.IdProyecto AND I.IdIncidencia=?</field>
-		<field name="UseBusinessConnection" xsi:nil="true" />
+		<field name="UseBusinessConnection" xsi:nil="true"/>
 		<field name="DependColumns">IdIncidencia</field>
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
 		<field name="ReadOnlyAtInsert">1</field>
 		<field name="ReadOnlyAtUpdate">1</field>
 		<field name="Caption">Login</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
 		<field name="MaxMultiplicity">0</field>
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Proyecto</field>
 		<field name="ColumnName">CodAula</field>
 		<field name="ColumnIndex">3</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
-		<field name="Length" xsi:nil="true" />
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
+		<field name="Length" xsi:nil="true"/>
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
 		<field name="SqlSearch">SELECT CodAula,Descripcion FROM Aula</field>
 		<field name="SqlDescription">SELECT Descripcion FROM Aula WHERE CodAula=?</field>
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Aula</field>
 		<field name="Comment">Aula</field>
 		<field name="Multivalue">1</field>
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
 		<field name="SqlGetAllMultivalues">SELECT CodAula FROM ProyectoAula WHERE IdProyecto=?</field>
 		<field name="SqlInsertSingleMultivalue">INSERT INTO ProyectoAula (CodAula,IdProyecto) VALUES (?,?)</field>
 		<field name="SqlDeleteSingleMultivalue">DELETE FROM ProyectoAula WHERE CodAula=? AND IdProyecto=?</field>
@@ -836,33 +835,33 @@ WHERE Proyecto.IdProyecto=? AND Proyecto.IdProyecto=ProyectoUser.IdProyecto AND 
 		<field name="ColumnName">Descripcion</field>
 		<field name="ColumnIndex">1</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
 		<field name="Length">50</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Descripcion</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
 		<field name="MaxMultiplicity">0</field>
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Proyecto</field>
@@ -870,62 +869,62 @@ WHERE Proyecto.IdProyecto=? AND Proyecto.IdProyecto=ProyectoUser.IdProyecto AND 
 		<field name="ColumnIndex">0</field>
 		<field name="DataType">3</field>
 		<field name="PrimaryKey">1</field>
-		<field name="Length" xsi:nil="true" />
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
+		<field name="Length" xsi:nil="true"/>
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
 		<field name="ReadOnlyAtInsert">1</field>
 		<field name="ReadOnlyAtUpdate">1</field>
 		<field name="Caption">IdProyecto</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
 		<field name="MaxMultiplicity">0</field>
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Proyecto</field>
 		<field name="ColumnName">Login</field>
 		<field name="ColumnIndex">2</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
 		<field name="Length">50</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
 		<field name="SqlSearch">SELECT Login,CONCAT_WS(' ',Nombre,Ape1,Ape2) FROM Usuario  Order By Nombre,Ape1,Ape2</field>
 		<field name="SqlDescription">SELECT CONCAT_WS(' ',Nombre,Ape1,Ape2)  FROM Usuario WHERE Login=?</field>
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Usuarios</field>
 		<field name="Comment">Usuarios</field>
 		<field name="Multivalue">1</field>
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
 		<field name="SqlGetAllMultivalues">SELECT PU.Login FROM ProyectoUser PU,Usuario U WHERE PU.Login=U.Login AND IdProyecto=? Order By U.Nombre,U.Ape1,U.Ape2</field>
 		<field name="SqlInsertSingleMultivalue">INSERT INTO ProyectoUser (Login,IdProyecto) VALUES (?,?)</field>
 		<field name="SqlDeleteSingleMultivalue">DELETE FROM ProyectoUser WHERE Login=? AND IdProyecto=?</field>
@@ -935,162 +934,162 @@ WHERE Proyecto.IdProyecto=? AND Proyecto.IdProyecto=ProyectoUser.IdProyecto AND 
 		<field name="ColumnName">Nombre</field>
 		<field name="ColumnIndex">1</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
 		<field name="Length">50</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
 		<field name="Required">2</field>
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Nombre</field>
-		<field name="Comment" xsi:nil="true" />
-		<field name="Multivalue" xsi:nil="true" />
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
+		<field name="Multivalue" xsi:nil="true"/>
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Usuario</field>
 		<field name="ColumnName">Ape1</field>
 		<field name="ColumnIndex">2</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
 		<field name="Length">50</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
 		<field name="Required">2</field>
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">1º Apellido</field>
-		<field name="Comment" xsi:nil="true" />
-		<field name="Multivalue" xsi:nil="true" />
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
+		<field name="Multivalue" xsi:nil="true"/>
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Usuario</field>
 		<field name="ColumnName">Ape2</field>
 		<field name="ColumnIndex">3</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
 		<field name="Length">50</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
 		<field name="Required">1</field>
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">2º Apellido</field>
-		<field name="Comment" xsi:nil="true" />
-		<field name="Multivalue" xsi:nil="true" />
-		<field name="MinMultiplicity" xsi:nil="true" />
-		<field name="MaxMultiplicity" xsi:nil="true" />
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
+		<field name="Multivalue" xsi:nil="true"/>
+		<field name="MinMultiplicity" xsi:nil="true"/>
+		<field name="MaxMultiplicity" xsi:nil="true"/>
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Usuario</field>
 		<field name="ColumnName">CodHabilitadoUsuario</field>
 		<field name="ColumnIndex">5</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
 		<field name="Length">2</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
 		<field name="DefaultValue">H</field>
 		<field name="SqlSearch">SELECT CodHabilitadoUsuario,Descripcion FROM HabilitadoUsuario</field>
 		<field name="SqlDescription">SELECT Descripcion FROM HabilitadoUsuario WHERE CodHabilitadoUsuario=?</field>
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
 		<field name="Required">2</field>
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Habilitado</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
 		<field name="MaxMultiplicity">0</field>
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Usuario</field>
 		<field name="ColumnName">IdRole</field>
 		<field name="ColumnIndex">4</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
 		<field name="Length">50</field>
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
 		<field name="SqlSearch">SELECT IdRole,Description FROM Role Order by Description </field>
 		<field name="SqlDescription">SELECT Description FROM Role WHERE IdRole=?</field>
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Grupos</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">1</field>
 		<field name="MinMultiplicity">1</field>
-		<field name="MaxMultiplicity" xsi:nil="true" />
+		<field name="MaxMultiplicity" xsi:nil="true"/>
 		<field name="SqlGetAllMultivalues">SELECT IdRole FROM UsuarioRole WHERE Login=?</field>
 		<field name="SqlInsertSingleMultivalue">INSERT INTO UsuarioRole (IdRole,Login) VALUES (?,?)</field>
 		<field name="SqlDeleteSingleMultivalue">DELETE FROM UsuarioRole WHERE IdRole=? AND Login=?</field>
@@ -1101,139 +1100,139 @@ WHERE Proyecto.IdProyecto=? AND Proyecto.IdProyecto=ProyectoUser.IdProyecto AND 
 		<field name="ColumnIndex">0</field>
 		<field name="DataType">0</field>
 		<field name="PrimaryKey">1</field>
-		<field name="Length" xsi:nil="true" />
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
+		<field name="Length" xsi:nil="true"/>
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
 		<field name="Required">2</field>
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">CodHabilitadoUsuario</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
 		<field name="MaxMultiplicity">0</field>
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">HabilitadoUsuario</field>
 		<field name="ColumnName">Descripcion</field>
 		<field name="ColumnIndex">1</field>
 		<field name="DataType">0</field>
-		<field name="PrimaryKey" xsi:nil="true" />
-		<field name="Length" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
+		<field name="Length" xsi:nil="true"/>
 		<field name="Decimals">255</field>
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
-		<field name="SqlSearch" xsi:nil="true" />
-		<field name="SqlDescription" xsi:nil="true" />
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
+		<field name="SqlSearch" xsi:nil="true"/>
+		<field name="SqlDescription" xsi:nil="true"/>
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
 		<field name="Required">2</field>
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Descripcion</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">0</field>
 		<field name="MinMultiplicity">0</field>
 		<field name="MaxMultiplicity">0</field>
-		<field name="SqlGetAllMultivalues" xsi:nil="true" />
-		<field name="SqlInsertSingleMultivalue" xsi:nil="true" />
-		<field name="SqlDeleteSingleMultivalue" xsi:nil="true" />
+		<field name="SqlGetAllMultivalues" xsi:nil="true"/>
+		<field name="SqlInsertSingleMultivalue" xsi:nil="true"/>
+		<field name="SqlDeleteSingleMultivalue" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Usuario</field>
 		<field name="ColumnName">IdProyecto</field>
 		<field name="ColumnIndex">6</field>
 		<field name="DataType">3</field>
-		<field name="PrimaryKey" xsi:nil="true" />
-		<field name="Length" xsi:nil="true" />
-		<field name="Decimals" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="DefaultValue" xsi:nil="true" />
+		<field name="PrimaryKey" xsi:nil="true"/>
+		<field name="Length" xsi:nil="true"/>
+		<field name="Decimals" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="DefaultValue" xsi:nil="true"/>
 		<field name="SqlSearch">SELECT IdProyecto,Descripcion FROM Proyecto Order By Descripcion </field>
 		<field name="SqlDescription">SELECT Descripcion FROM Proyecto WHERE IdProyecto=?</field>
-		<field name="UseBusinessConnection" xsi:nil="true" />
-		<field name="DependColumns" xsi:nil="true" />
-		<field name="FilterName" xsi:nil="true" />
-		<field name="Required" xsi:nil="true" />
-		<field name="Pattern" xsi:nil="true" />
-		<field name="ForbiddenZero" xsi:nil="true" />
-		<field name="ForbiddenNegative" xsi:nil="true" />
-		<field name="MaxValue" xsi:nil="true" />
-		<field name="MinValue" xsi:nil="true" />
-		<field name="ForceCase" xsi:nil="true" />
-		<field name="ReadOnlyAtInsert" xsi:nil="true" />
-		<field name="ReadOnlyAtUpdate" xsi:nil="true" />
+		<field name="UseBusinessConnection" xsi:nil="true"/>
+		<field name="DependColumns" xsi:nil="true"/>
+		<field name="FilterName" xsi:nil="true"/>
+		<field name="Required" xsi:nil="true"/>
+		<field name="Pattern" xsi:nil="true"/>
+		<field name="ForbiddenZero" xsi:nil="true"/>
+		<field name="ForbiddenNegative" xsi:nil="true"/>
+		<field name="MaxValue" xsi:nil="true"/>
+		<field name="MinValue" xsi:nil="true"/>
+		<field name="ForceCase" xsi:nil="true"/>
+		<field name="ReadOnlyAtInsert" xsi:nil="true"/>
+		<field name="ReadOnlyAtUpdate" xsi:nil="true"/>
 		<field name="Caption">Proyectos</field>
-		<field name="Comment" xsi:nil="true" />
+		<field name="Comment" xsi:nil="true"/>
 		<field name="Multivalue">1</field>
 		<field name="MinMultiplicity">0</field>
-		<field name="MaxMultiplicity" xsi:nil="true" />
+		<field name="MaxMultiplicity" xsi:nil="true"/>
 		<field name="SqlGetAllMultivalues">SELECT IdProyecto FROM ProyectoUser WHERE Login=?</field>
 		<field name="SqlInsertSingleMultivalue">INSERT INTO ProyectoUser (IdProyecto,Login) VALUES (?,?)</field>
 		<field name="SqlDeleteSingleMultivalue">DELETE FROM ProyectoUser WHERE IdProyecto=? AND Login=?</field>
 	</row>
 	</table_data>
 	<table_structure name="bl_defjavascriptrule">
-		<field Field="TableName" Type="varchar(40)" Null="NO" Key="PRI" Extra="" Comment="" />
-		<field Field="RuleIndex" Type="int(11)" Null="NO" Key="PRI" Default="0" Extra="" Comment="" />
-		<field Field="Description" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="SourceCode" Type="longtext" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="UserMessage" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="Severity" Type="int(11)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="ValidateInNew" Type="tinyint(1)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="ValidateInRead" Type="tinyint(1)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="ValidateInInsert" Type="tinyint(1)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="ValidateInUpdate" Type="tinyint(1)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="ValidateInDelete" Type="tinyint(1)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="ExecuteInClient" Type="tinyint(1)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="Disabled" Type="tinyint(1)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<key Table="bl_defjavascriptrule" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="TableName" Collation="A" Null="" Index_type="BTREE" Comment="" Index_comment="" />
-		<key Table="bl_defjavascriptrule" Non_unique="0" Key_name="PRIMARY" Seq_in_index="2" Column_name="RuleIndex" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
-		<options Name="bl_defjavascriptrule" Engine="MyISAM" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="96" Max_data_length="281474976710655" Index_length="2048" Data_free="96" Create_time="2011-10-10 08:10:55" Update_time="2011-12-30 19:16:20" Collation="utf8_general_ci" Create_options="" Comment="" />
+		<field Comment="" Extra="" Field="TableName" Key="PRI" Null="NO" Type="varchar(40)"/>
+		<field Comment="" Default="0" Extra="" Field="RuleIndex" Key="PRI" Null="NO" Type="int(11)"/>
+		<field Comment="" Extra="" Field="Description" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="SourceCode" Key="" Null="YES" Type="longtext"/>
+		<field Comment="" Extra="" Field="UserMessage" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Default="0" Extra="" Field="Severity" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Default="0" Extra="" Field="ValidateInNew" Key="" Null="YES" Type="tinyint(1)"/>
+		<field Comment="" Default="0" Extra="" Field="ValidateInRead" Key="" Null="YES" Type="tinyint(1)"/>
+		<field Comment="" Default="0" Extra="" Field="ValidateInInsert" Key="" Null="YES" Type="tinyint(1)"/>
+		<field Comment="" Default="0" Extra="" Field="ValidateInUpdate" Key="" Null="YES" Type="tinyint(1)"/>
+		<field Comment="" Default="0" Extra="" Field="ValidateInDelete" Key="" Null="YES" Type="tinyint(1)"/>
+		<field Comment="" Default="0" Extra="" Field="ExecuteInClient" Key="" Null="YES" Type="tinyint(1)"/>
+		<field Comment="" Default="0" Extra="" Field="Disabled" Key="" Null="YES" Type="tinyint(1)"/>
+		<key Collation="A" Column_name="TableName" Comment="" Index_comment="" Index_type="BTREE" Key_name="PRIMARY" Non_unique="0" Null="" Seq_in_index="1" Table="bl_defjavascriptrule"/>
+		<key Cardinality="0" Collation="A" Column_name="RuleIndex" Comment="" Index_comment="" Index_type="BTREE" Key_name="PRIMARY" Non_unique="0" Null="" Seq_in_index="2" Table="bl_defjavascriptrule"/>
+		<options Avg_row_length="0" Collation="utf8_general_ci" Comment="" Create_options="" Create_time="2011-10-10 08:10:55" Data_free="96" Data_length="96" Engine="MyISAM" Index_length="2048" Max_data_length="281474976710655" Name="bl_defjavascriptrule" Row_format="Dynamic" Rows="0" Update_time="2011-12-30 19:16:20" Version="10"/>
 	</table_structure>
 	<table_data name="bl_defjavascriptrule">
 	</table_data>
 	<table_structure name="bl_defsqlrule">
-		<field Field="TableName" Type="varchar(50)" Null="NO" Key="PRI" Extra="" Comment="" />
-		<field Field="RuleIndex" Type="int(11)" Null="NO" Key="PRI" Default="0" Extra="" Comment="" />
-		<field Field="Description" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="SQLSelect" Type="longtext" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="UseBusinessConnection" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="DependColumns" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="UserMessage" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="Severity" Type="int(11)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="ValidateInNew" Type="tinyint(1)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="ValidateInRead" Type="tinyint(1)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="ValidateInInsert" Type="tinyint(1)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="ValidateInUpdate" Type="tinyint(1)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="ValidateInDelete" Type="tinyint(1)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<field Field="Disabled" Type="tinyint(1)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<key Table="bl_defsqlrule" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="TableName" Collation="A" Null="" Index_type="BTREE" Comment="" Index_comment="" />
-		<key Table="bl_defsqlrule" Non_unique="0" Key_name="PRIMARY" Seq_in_index="2" Column_name="RuleIndex" Collation="A" Cardinality="5" Null="" Index_type="BTREE" Comment="" Index_comment="" />
-		<key Table="bl_defsqlrule" Non_unique="1" Key_name="TableName" Seq_in_index="1" Column_name="TableName" Collation="A" Null="" Index_type="BTREE" Comment="" Index_comment="" />
-		<options Name="bl_defsqlrule" Engine="MyISAM" Version="10" Row_format="Dynamic" Rows="5" Avg_row_length="156" Data_length="784" Max_data_length="281474976710655" Index_length="3072" Data_free="0" Create_time="2012-04-23 11:59:16" Update_time="2012-04-23 11:59:16" Collation="utf8_general_ci" Create_options="" Comment="" />
+		<field Comment="" Extra="" Field="TableName" Key="PRI" Null="NO" Type="varchar(50)"/>
+		<field Comment="" Default="0" Extra="" Field="RuleIndex" Key="PRI" Null="NO" Type="int(11)"/>
+		<field Comment="" Extra="" Field="Description" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="SQLSelect" Key="" Null="YES" Type="longtext"/>
+		<field Comment="" Extra="" Field="UseBusinessConnection" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="DependColumns" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="UserMessage" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Default="0" Extra="" Field="Severity" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Default="0" Extra="" Field="ValidateInNew" Key="" Null="YES" Type="tinyint(1)"/>
+		<field Comment="" Default="0" Extra="" Field="ValidateInRead" Key="" Null="YES" Type="tinyint(1)"/>
+		<field Comment="" Default="0" Extra="" Field="ValidateInInsert" Key="" Null="YES" Type="tinyint(1)"/>
+		<field Comment="" Default="0" Extra="" Field="ValidateInUpdate" Key="" Null="YES" Type="tinyint(1)"/>
+		<field Comment="" Default="0" Extra="" Field="ValidateInDelete" Key="" Null="YES" Type="tinyint(1)"/>
+		<field Comment="" Default="0" Extra="" Field="Disabled" Key="" Null="YES" Type="tinyint(1)"/>
+		<key Collation="A" Column_name="TableName" Comment="" Index_comment="" Index_type="BTREE" Key_name="PRIMARY" Non_unique="0" Null="" Seq_in_index="1" Table="bl_defsqlrule"/>
+		<key Cardinality="5" Collation="A" Column_name="RuleIndex" Comment="" Index_comment="" Index_type="BTREE" Key_name="PRIMARY" Non_unique="0" Null="" Seq_in_index="2" Table="bl_defsqlrule"/>
+		<key Collation="A" Column_name="TableName" Comment="" Index_comment="" Index_type="BTREE" Key_name="TableName" Non_unique="1" Null="" Seq_in_index="1" Table="bl_defsqlrule"/>
+		<options Avg_row_length="156" Collation="utf8_general_ci" Comment="" Create_options="" Create_time="2012-04-23 11:59:16" Data_free="0" Data_length="784" Engine="MyISAM" Index_length="3072" Max_data_length="281474976710655" Name="bl_defsqlrule" Row_format="Dynamic" Rows="5" Update_time="2012-04-23 11:59:16" Version="10"/>
 	</table_structure>
 	<table_data name="bl_defsqlrule">
 	<row>
@@ -1241,7 +1240,7 @@ WHERE Proyecto.IdProyecto=? AND Proyecto.IdProyecto=ProyectoUser.IdProyecto AND 
 		<field name="RuleIndex">0</field>
 		<field name="Description">No se puede borrar si hay tareas</field>
 		<field name="SQLSelect">SELECT 1 FROM IncidenciaTarea WHERE IdIncidencia=?</field>
-		<field name="UseBusinessConnection" xsi:nil="true" />
+		<field name="UseBusinessConnection" xsi:nil="true"/>
 		<field name="DependColumns">IdIncidencia</field>
 		<field name="UserMessage">No se puede borrar la incidencia si tiene tareas</field>
 		<field name="Severity">2</field>
@@ -1257,187 +1256,187 @@ WHERE Proyecto.IdProyecto=? AND Proyecto.IdProyecto=ProyectoUser.IdProyecto AND 
 		<field name="RuleIndex">0</field>
 		<field name="Description">No borrar si está en una incidencia</field>
 		<field name="SQLSelect">SELECT 1 FROM Incidencia WHERE Login=?</field>
-		<field name="UseBusinessConnection" xsi:nil="true" />
+		<field name="UseBusinessConnection" xsi:nil="true"/>
 		<field name="DependColumns">Login</field>
 		<field name="UserMessage">El usuario está al menos en una Incidencia</field>
 		<field name="Severity">2</field>
-		<field name="ValidateInNew" xsi:nil="true" />
-		<field name="ValidateInRead" xsi:nil="true" />
-		<field name="ValidateInInsert" xsi:nil="true" />
-		<field name="ValidateInUpdate" xsi:nil="true" />
+		<field name="ValidateInNew" xsi:nil="true"/>
+		<field name="ValidateInRead" xsi:nil="true"/>
+		<field name="ValidateInInsert" xsi:nil="true"/>
+		<field name="ValidateInUpdate" xsi:nil="true"/>
 		<field name="ValidateInDelete">1</field>
-		<field name="Disabled" xsi:nil="true" />
+		<field name="Disabled" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Usuario</field>
 		<field name="RuleIndex">1</field>
 		<field name="Description">No borrar si está en una tarea</field>
 		<field name="SQLSelect">SELECT 1 FROM IncidenciaTarea WHERE Login=?</field>
-		<field name="UseBusinessConnection" xsi:nil="true" />
+		<field name="UseBusinessConnection" xsi:nil="true"/>
 		<field name="DependColumns">Login</field>
 		<field name="UserMessage">El usuario está al menos en una Tarea</field>
 		<field name="Severity">2</field>
-		<field name="ValidateInNew" xsi:nil="true" />
-		<field name="ValidateInRead" xsi:nil="true" />
-		<field name="ValidateInInsert" xsi:nil="true" />
-		<field name="ValidateInUpdate" xsi:nil="true" />
+		<field name="ValidateInNew" xsi:nil="true"/>
+		<field name="ValidateInRead" xsi:nil="true"/>
+		<field name="ValidateInInsert" xsi:nil="true"/>
+		<field name="ValidateInUpdate" xsi:nil="true"/>
 		<field name="ValidateInDelete">1</field>
-		<field name="Disabled" xsi:nil="true" />
+		<field name="Disabled" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Aula</field>
 		<field name="RuleIndex">0</field>
 		<field name="Description">No borrar si está en una Incidencia</field>
 		<field name="SQLSelect">SELECT 1 FROM Incidencia WHERE CodAula=?</field>
-		<field name="UseBusinessConnection" xsi:nil="true" />
+		<field name="UseBusinessConnection" xsi:nil="true"/>
 		<field name="DependColumns">CodAula</field>
 		<field name="UserMessage">El Aula está al menos en una Incidencia</field>
 		<field name="Severity">2</field>
-		<field name="ValidateInNew" xsi:nil="true" />
-		<field name="ValidateInRead" xsi:nil="true" />
-		<field name="ValidateInInsert" xsi:nil="true" />
-		<field name="ValidateInUpdate" xsi:nil="true" />
+		<field name="ValidateInNew" xsi:nil="true"/>
+		<field name="ValidateInRead" xsi:nil="true"/>
+		<field name="ValidateInInsert" xsi:nil="true"/>
+		<field name="ValidateInUpdate" xsi:nil="true"/>
 		<field name="ValidateInDelete">1</field>
-		<field name="Disabled" xsi:nil="true" />
+		<field name="Disabled" xsi:nil="true"/>
 	</row>
 	<row>
 		<field name="TableName">Proyecto</field>
 		<field name="RuleIndex">0</field>
 		<field name="Description">No borrar si está en una Incidencia</field>
 		<field name="SQLSelect">SELECT 1 FROM Incidencia WHERE IdProyecto=?</field>
-		<field name="UseBusinessConnection" xsi:nil="true" />
+		<field name="UseBusinessConnection" xsi:nil="true"/>
 		<field name="DependColumns">IdProyecto</field>
 		<field name="UserMessage">El proyecto está al menos en una Incidencia</field>
 		<field name="Severity">2</field>
-		<field name="ValidateInNew" xsi:nil="true" />
-		<field name="ValidateInRead" xsi:nil="true" />
-		<field name="ValidateInInsert" xsi:nil="true" />
-		<field name="ValidateInUpdate" xsi:nil="true" />
+		<field name="ValidateInNew" xsi:nil="true"/>
+		<field name="ValidateInRead" xsi:nil="true"/>
+		<field name="ValidateInInsert" xsi:nil="true"/>
+		<field name="ValidateInUpdate" xsi:nil="true"/>
 		<field name="ValidateInDelete">1</field>
-		<field name="Disabled" xsi:nil="true" />
+		<field name="Disabled" xsi:nil="true"/>
 	</row>
 	</table_data>
 	<table_structure name="bl_deftable">
-		<field Field="TableName" Type="varchar(150)" Null="NO" Key="PRI" Extra="" Comment="" />
-		<field Field="ConnectionName" Type="varchar(50)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="Virtual" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="RecordFQCN" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="BusinessLogicFQCN" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="PersistenceFQCN" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="Caption" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="Description" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="SequenceName" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="SequenceDestinationColumn" Type="varchar(120)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="SequencePartitionersColumns" Type="varchar(50)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="PreGenerateSequence" Type="int(11)" Null="YES" Key="" Default="0" Extra="" Comment="" />
-		<key Table="bl_deftable" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="TableName" Collation="A" Cardinality="7" Null="" Index_type="BTREE" Comment="" Index_comment="" />
-		<options Name="bl_deftable" Engine="MyISAM" Version="10" Row_format="Dynamic" Rows="7" Avg_row_length="141" Data_length="1064" Max_data_length="281474976710655" Index_length="4096" Data_free="72" Create_time="2011-10-10 08:10:55" Update_time="2012-04-23 12:05:32" Collation="utf8_general_ci" Create_options="" Comment="" />
+		<field Comment="" Extra="" Field="TableName" Key="PRI" Null="NO" Type="varchar(150)"/>
+		<field Comment="" Extra="" Field="ConnectionName" Key="" Null="YES" Type="varchar(50)"/>
+		<field Comment="" Extra="" Field="Virtual" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="RecordFQCN" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="BusinessLogicFQCN" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="PersistenceFQCN" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="Caption" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="Description" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="SequenceName" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="SequenceDestinationColumn" Key="" Null="YES" Type="varchar(120)"/>
+		<field Comment="" Extra="" Field="SequencePartitionersColumns" Key="" Null="YES" Type="varchar(50)"/>
+		<field Comment="" Default="0" Extra="" Field="PreGenerateSequence" Key="" Null="YES" Type="int(11)"/>
+		<key Cardinality="7" Collation="A" Column_name="TableName" Comment="" Index_comment="" Index_type="BTREE" Key_name="PRIMARY" Non_unique="0" Null="" Seq_in_index="1" Table="bl_deftable"/>
+		<options Avg_row_length="141" Collation="utf8_general_ci" Comment="" Create_options="" Create_time="2011-10-10 08:10:55" Data_free="72" Data_length="1064" Engine="MyISAM" Index_length="4096" Max_data_length="281474976710655" Name="bl_deftable" Row_format="Dynamic" Rows="7" Update_time="2012-04-23 12:05:32" Version="10"/>
 	</table_structure>
 	<table_data name="bl_deftable">
 	<row>
 		<field name="TableName">Aula</field>
 		<field name="ConnectionName">DATOS</field>
-		<field name="Virtual" xsi:nil="true" />
-		<field name="RecordFQCN" xsi:nil="true" />
-		<field name="BusinessLogicFQCN" xsi:nil="true" />
-		<field name="PersistenceFQCN" xsi:nil="true" />
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="RecordFQCN" xsi:nil="true"/>
+		<field name="BusinessLogicFQCN" xsi:nil="true"/>
+		<field name="PersistenceFQCN" xsi:nil="true"/>
 		<field name="Caption">Aulas</field>
 		<field name="Description">Aulas de centro</field>
-		<field name="SequenceName" xsi:nil="true" />
-		<field name="SequenceDestinationColumn" xsi:nil="true" />
-		<field name="SequencePartitionersColumns" xsi:nil="true" />
+		<field name="SequenceName" xsi:nil="true"/>
+		<field name="SequenceDestinationColumn" xsi:nil="true"/>
+		<field name="SequencePartitionersColumns" xsi:nil="true"/>
 		<field name="PreGenerateSequence">0</field>
 	</row>
 	<row>
 		<field name="TableName">Estado</field>
 		<field name="ConnectionName">DATOS</field>
-		<field name="Virtual" xsi:nil="true" />
-		<field name="RecordFQCN" xsi:nil="true" />
-		<field name="BusinessLogicFQCN" xsi:nil="true" />
-		<field name="PersistenceFQCN" xsi:nil="true" />
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="RecordFQCN" xsi:nil="true"/>
+		<field name="BusinessLogicFQCN" xsi:nil="true"/>
+		<field name="PersistenceFQCN" xsi:nil="true"/>
 		<field name="Caption">Estado</field>
 		<field name="Description">Estado de una incidencia</field>
-		<field name="SequenceName" xsi:nil="true" />
-		<field name="SequenceDestinationColumn" xsi:nil="true" />
-		<field name="SequencePartitionersColumns" xsi:nil="true" />
+		<field name="SequenceName" xsi:nil="true"/>
+		<field name="SequenceDestinationColumn" xsi:nil="true"/>
+		<field name="SequencePartitionersColumns" xsi:nil="true"/>
 		<field name="PreGenerateSequence">0</field>
 	</row>
 	<row>
 		<field name="TableName">Incidencia</field>
-		<field name="ConnectionName" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="RecordFQCN" xsi:nil="true" />
+		<field name="ConnectionName" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="RecordFQCN" xsi:nil="true"/>
 		<field name="BusinessLogicFQCN">es.logongas.incidencias.businesslogic.BusinessLogicImplIncidencia</field>
 		<field name="PersistenceFQCN">es.logongas.incidencias.businesslogic.persistence.Incidencia</field>
 		<field name="Caption">Incidencia</field>
 		<field name="Description">Incidencia o error en el centro</field>
 		<field name="SequenceName">IdIncidencia</field>
 		<field name="SequenceDestinationColumn">IdIncidencia</field>
-		<field name="SequencePartitionersColumns" xsi:nil="true" />
+		<field name="SequencePartitionersColumns" xsi:nil="true"/>
 		<field name="PreGenerateSequence">-1</field>
 	</row>
 	<row>
 		<field name="TableName">IncidenciaTarea</field>
 		<field name="ConnectionName">DATOS</field>
-		<field name="Virtual" xsi:nil="true" />
-		<field name="RecordFQCN" xsi:nil="true" />
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="RecordFQCN" xsi:nil="true"/>
 		<field name="BusinessLogicFQCN">es.logongas.incidencias.businesslogic.BusinessLogicImplIncidenciaTarea</field>
-		<field name="PersistenceFQCN" xsi:nil="true" />
+		<field name="PersistenceFQCN" xsi:nil="true"/>
 		<field name="Caption">IncidenciaTarea</field>
 		<field name="Description">Tareas realizadas centro de una incidencia</field>
 		<field name="SequenceName">IdTarea</field>
 		<field name="SequenceDestinationColumn">IdTarea</field>
-		<field name="SequencePartitionersColumns" xsi:nil="true" />
+		<field name="SequencePartitionersColumns" xsi:nil="true"/>
 		<field name="PreGenerateSequence">-1</field>
 	</row>
 	<row>
 		<field name="TableName">Proyecto</field>
 		<field name="ConnectionName">DATOS</field>
-		<field name="Virtual" xsi:nil="true" />
-		<field name="RecordFQCN" xsi:nil="true" />
-		<field name="BusinessLogicFQCN" xsi:nil="true" />
-		<field name="PersistenceFQCN" xsi:nil="true" />
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="RecordFQCN" xsi:nil="true"/>
+		<field name="BusinessLogicFQCN" xsi:nil="true"/>
+		<field name="PersistenceFQCN" xsi:nil="true"/>
 		<field name="Caption">Proyectos</field>
 		<field name="Description">Distintos proyectos (Departamentos) en los que puede haber una incidencia</field>
 		<field name="SequenceName">IdProyecto</field>
 		<field name="SequenceDestinationColumn">IdProyecto</field>
-		<field name="SequencePartitionersColumns" xsi:nil="true" />
+		<field name="SequencePartitionersColumns" xsi:nil="true"/>
 		<field name="PreGenerateSequence">-1</field>
 	</row>
 	<row>
 		<field name="TableName">HabilitadoUsuario</field>
 		<field name="ConnectionName">DATOS</field>
-		<field name="Virtual" xsi:nil="true" />
-		<field name="RecordFQCN" xsi:nil="true" />
-		<field name="BusinessLogicFQCN" xsi:nil="true" />
-		<field name="PersistenceFQCN" xsi:nil="true" />
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="RecordFQCN" xsi:nil="true"/>
+		<field name="BusinessLogicFQCN" xsi:nil="true"/>
+		<field name="PersistenceFQCN" xsi:nil="true"/>
 		<field name="Caption">Habilitado Usuario</field>
 		<field name="Description">Si un usuario está o no habilitado</field>
-		<field name="SequenceName" xsi:nil="true" />
-		<field name="SequenceDestinationColumn" xsi:nil="true" />
-		<field name="SequencePartitionersColumns" xsi:nil="true" />
+		<field name="SequenceName" xsi:nil="true"/>
+		<field name="SequenceDestinationColumn" xsi:nil="true"/>
+		<field name="SequencePartitionersColumns" xsi:nil="true"/>
 		<field name="PreGenerateSequence">0</field>
 	</row>
 	<row>
 		<field name="TableName">Usuario</field>
-		<field name="ConnectionName" xsi:nil="true" />
-		<field name="Virtual" xsi:nil="true" />
-		<field name="RecordFQCN" xsi:nil="true" />
+		<field name="ConnectionName" xsi:nil="true"/>
+		<field name="Virtual" xsi:nil="true"/>
+		<field name="RecordFQCN" xsi:nil="true"/>
 		<field name="BusinessLogicFQCN">es.logongas.incidencias.businesslogic.BusinessLogicImplUsuario</field>
-		<field name="PersistenceFQCN" xsi:nil="true" />
+		<field name="PersistenceFQCN" xsi:nil="true"/>
 		<field name="Caption">Usuarios</field>
 		<field name="Description">Usuarios del sistema.Validados contra su correo.</field>
-		<field name="SequenceName" xsi:nil="true" />
-		<field name="SequenceDestinationColumn" xsi:nil="true" />
-		<field name="SequencePartitionersColumns" xsi:nil="true" />
-		<field name="PreGenerateSequence" xsi:nil="true" />
+		<field name="SequenceName" xsi:nil="true"/>
+		<field name="SequenceDestinationColumn" xsi:nil="true"/>
+		<field name="SequencePartitionersColumns" xsi:nil="true"/>
+		<field name="PreGenerateSequence" xsi:nil="true"/>
 	</row>
 	</table_data>
 	<table_structure name="bl_forcecase">
-		<field Field="ForceCase" Type="int(11)" Null="NO" Key="PRI" Extra="" Comment="" />
-		<field Field="Description" Type="varchar(150)" Null="YES" Key="" Extra="" Comment="" />
-		<key Table="bl_forcecase" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="ForceCase" Collation="A" Cardinality="3" Null="" Index_type="BTREE" Comment="" Index_comment="" />
-		<options Name="bl_forcecase" Engine="MyISAM" Version="10" Row_format="Dynamic" Rows="3" Avg_row_length="22" Data_length="68" Max_data_length="281474976710655" Index_length="2048" Data_free="0" Create_time="2011-10-10 08:10:55" Update_time="2011-10-10 08:10:56" Collation="utf8_general_ci" Create_options="" Comment="" />
+		<field Comment="" Extra="" Field="ForceCase" Key="PRI" Null="NO" Type="int(11)"/>
+		<field Comment="" Extra="" Field="Description" Key="" Null="YES" Type="varchar(150)"/>
+		<key Cardinality="3" Collation="A" Column_name="ForceCase" Comment="" Index_comment="" Index_type="BTREE" Key_name="PRIMARY" Non_unique="0" Null="" Seq_in_index="1" Table="bl_forcecase"/>
+		<options Avg_row_length="22" Collation="utf8_general_ci" Comment="" Create_options="" Create_time="2011-10-10 08:10:55" Data_free="0" Data_length="68" Engine="MyISAM" Index_length="2048" Max_data_length="281474976710655" Name="bl_forcecase" Row_format="Dynamic" Rows="3" Update_time="2011-10-10 08:10:56" Version="10"/>
 	</table_structure>
 	<table_data name="bl_forcecase">
 	<row>
@@ -1454,10 +1453,10 @@ WHERE Proyecto.IdProyecto=? AND Proyecto.IdProyecto=ProyectoUser.IdProyecto AND 
 	</row>
 	</table_data>
 	<table_structure name="bl_required">
-		<field Field="Required" Type="int(11)" Null="NO" Key="PRI" Extra="" Comment="" />
-		<field Field="Description" Type="varchar(150)" Null="YES" Key="" Extra="" Comment="" />
-		<key Table="bl_required" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="Required" Collation="A" Cardinality="4" Null="" Index_type="BTREE" Comment="" Index_comment="" />
-		<options Name="bl_required" Engine="MyISAM" Version="10" Row_format="Dynamic" Rows="4" Avg_row_length="20" Data_length="80" Max_data_length="281474976710655" Index_length="2048" Data_free="0" Create_time="2011-10-10 08:10:55" Update_time="2011-10-10 08:10:56" Collation="utf8_general_ci" Create_options="" Comment="" />
+		<field Comment="" Extra="" Field="Required" Key="PRI" Null="NO" Type="int(11)"/>
+		<field Comment="" Extra="" Field="Description" Key="" Null="YES" Type="varchar(150)"/>
+		<key Cardinality="4" Collation="A" Column_name="Required" Comment="" Index_comment="" Index_type="BTREE" Key_name="PRIMARY" Non_unique="0" Null="" Seq_in_index="1" Table="bl_required"/>
+		<options Avg_row_length="20" Collation="utf8_general_ci" Comment="" Create_options="" Create_time="2011-10-10 08:10:55" Data_free="0" Data_length="80" Engine="MyISAM" Index_length="2048" Max_data_length="281474976710655" Name="bl_required" Row_format="Dynamic" Rows="4" Update_time="2011-10-10 08:10:56" Version="10"/>
 	</table_structure>
 	<table_data name="bl_required">
 	<row>
@@ -1478,13 +1477,13 @@ WHERE Proyecto.IdProyecto=? AND Proyecto.IdProyecto=ProyectoUser.IdProyecto AND 
 	</row>
 	</table_data>
 	<table_structure name="bl_sequence">
-		<field Field="CodSequence" Type="varchar(50)" Null="NO" Key="PRI" Default="" Extra="" Comment="" />
-		<field Field="MinValue" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="MaxValue" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="Cyclic" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
-		<field Field="Description" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
-		<key Table="bl_sequence" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="CodSequence" Collation="A" Cardinality="4" Null="" Index_type="BTREE" Comment="" Index_comment="" />
-		<options Name="bl_sequence" Engine="MyISAM" Version="10" Row_format="Dynamic" Rows="4" Avg_row_length="51" Data_length="204" Max_data_length="281474976710655" Index_length="2048" Data_free="0" Create_time="2011-10-10 09:30:23" Update_time="2011-12-01 12:41:53" Collation="utf8_general_ci" Create_options="" Comment="" />
+		<field Comment="" Default="" Extra="" Field="CodSequence" Key="PRI" Null="NO" Type="varchar(50)"/>
+		<field Comment="" Extra="" Field="MinValue" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="MaxValue" Key="" Null="YES" Type="varchar(255)"/>
+		<field Comment="" Extra="" Field="Cyclic" Key="" Null="YES" Type="int(11)"/>
+		<field Comment="" Extra="" Field="Description" Key="" Null="YES" Type="varchar(255)"/>
+		<key Cardinality="4" Collation="A" Column_name="CodSequence" Comment="" Index_comment="" Index_type="BTREE" Key_name="PRIMARY" Non_unique="0" Null="" Seq_in_index="1" Table="bl_sequence"/>
+		<options Avg_row_length="51" Collation="utf8_general_ci" Comment="" Create_options="" Create_time="2011-10-10 09:30:23" Data_free="0" Data_length="204" Engine="MyISAM" Index_length="2048" Max_data_length="281474976710655" Name="bl_sequence" Row_format="Dynamic" Rows="4" Update_time="2011-12-01 12:41:53" Version="10"/>
 	</table_structure>
 	<table_data name="bl_sequence">
 	<row>
@@ -1498,29 +1497,23 @@ WHERE Proyecto.IdProyecto=? AND Proyecto.IdProyecto=ProyectoUser.IdProyecto AND 
 		<field name="CodSequence">IdProyecto</field>
 		<field name="MinValue">1</field>
 		<field name="MaxValue">0</field>
-		<field name="Cyclic" xsi:nil="true" />
+		<field name="Cyclic" xsi:nil="true"/>
 		<field name="Description">Columna Proyecto.IdProyecto</field>
 	</row>
 	<row>
 		<field name="CodSequence">IdTarea</field>
 		<field name="MinValue">1</field>
 		<field name="MaxValue">0</field>
-		<field name="Cyclic" xsi:nil="true" />
+		<field name="Cyclic" xsi:nil="true"/>
 		<field name="Description">Columna IncidenciaTarea.IdTarea</field>
 	</row>
-	<row>
-		<field name="CodSequence">tretrei</field>
-		<field name="MinValue">1</field>
-		<field name="MaxValue">59</field>
-		<field name="Cyclic">1</field>
-		<field name="Description">gfdgfdgfa</field>
-	</row>
+	
 	</table_data>
 	<table_structure name="bl_severity">
-		<field Field="Severity" Type="int(11)" Null="NO" Key="PRI" Extra="" Comment="" />
-		<field Field="Description" Type="varchar(150)" Null="YES" Key="" Extra="" Comment="" />
-		<key Table="bl_severity" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="Severity" Collation="A" Cardinality="4" Null="" Index_type="BTREE" Comment="" Index_comment="" />
-		<options Name="bl_severity" Engine="MyISAM" Version="10" Row_format="Dynamic" Rows="4" Avg_row_length="20" Data_length="80" Max_data_length="281474976710655" Index_length="2048" Data_free="0" Create_time="2011-10-10 08:10:55" Update_time="2011-10-10 08:10:56" Collation="utf8_general_ci" Create_options="" Comment="" />
+		<field Comment="" Extra="" Field="Severity" Key="PRI" Null="NO" Type="int(11)"/>
+		<field Comment="" Extra="" Field="Description" Key="" Null="YES" Type="varchar(150)"/>
+		<key Cardinality="4" Collation="A" Column_name="Severity" Comment="" Index_comment="" Index_type="BTREE" Key_name="PRIMARY" Non_unique="0" Null="" Seq_in_index="1" Table="bl_severity"/>
+		<options Avg_row_length="20" Collation="utf8_general_ci" Comment="" Create_options="" Create_time="2011-10-10 08:10:55" Data_free="0" Data_length="80" Engine="MyISAM" Index_length="2048" Max_data_length="281474976710655" Name="bl_severity" Row_format="Dynamic" Rows="4" Update_time="2011-10-10 08:10:56" Version="10"/>
 	</table_structure>
 	<table_data name="bl_severity">
 	<row>
