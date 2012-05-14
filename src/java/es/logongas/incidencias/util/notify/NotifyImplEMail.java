@@ -47,7 +47,6 @@ public class NotifyImplEMail implements Notify {
 
 
                 Message message = new MimeMessage(session);
-                //message.setFrom(new InternetAddress(expediteur);
                 message.setRecipients(Message.RecipientType.TO, addressTo);
                 message.setSubject(subject);
                 message.setContent(cuerpo, "text/plain");
