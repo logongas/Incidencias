@@ -187,5 +187,25 @@
             </catch>
         </trycatch>
     </target>	
-	
+
+    <target name="deployDataBaseDesarrollo">
+        <!-- Propiedades del proyecto -->
+        <property file="nbproject/project.properties"/>
+
+        <!-- Cargar el context.xml para averiguar los datos de la conexión JDBC -->
+        <xmlproperty file="${web.docbase.dir}/META-INF/context.xml" />
+        
+        <sql 
+            driver="${Context.Resource(driverClassName)}" 
+            url="${Context.Resource(url)}" 
+            userid="${Context.Resource(username)}" 
+            password="${Context.Resource(password)}"
+            src="database/database_0000.sql"
+            encoding="utf-8"
+            classpath="lib/mysql-connector-java-5.1.5-bin.jar"
+            print="yes"
+            >
+        </sql>
+    </target>
+
 </project>
