@@ -4,7 +4,7 @@
     <context-param>
         <description>El Path del diccionario de ELF.</description>
         <param-name>elf.startup.dictionaryUri</param-name>
-        <param-value>pepe</param-value>
+        <param-value></param-value>
     </context-param>
     <context-param>
         <description>El paquete donde se encuentran los controladores de las paginas Web</description>
