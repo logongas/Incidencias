@@ -58,7 +58,7 @@
         <script type="text/javascript" src="<%=WLSession.getPaths().getAbsolutePath()%>/common/javascript"></script>
         <script type="text/javascript" src="<%=WLSession.getPaths().getAbsolutePath()%>/controls/javascript"></script>
         <script type="text/javascript" src="dygraph-combined.js"></script>
-        <script type="text/javascript" charset="ISO-8859-1" src="monitor_jvm.js"></script>
+        <script type="text/javascript" src="monitor_jvm.js"></script>
 
     </head>
     <body  >
