@@ -108,7 +108,7 @@
 
     <target name="-pre-dist" depends="-pre-dist-configureDesarrollo,-pre-dist-configureProduccion">
         <tstamp>
-            <format property="num_compilacion" pattern="yyyyddMM-HHmmss" />
+            <format property="num_compilacion" pattern="yyyyMMdd-HHmmss" />
         </tstamp>
 
         <replace file="${build.web.dir}/index.jsp" token="#num_compilation#" value="${num_compilacion}"/>
