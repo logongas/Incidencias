@@ -111,7 +111,7 @@
             <format property="num_compilacion" pattern="yyyyMMdd-HHmmss" />
         </tstamp>
 
-        <replace file="${build.web.dir}/index.jsp" token="#num_compilation#" value="${num_compilacion}" encoding="utf-8"/>
+        <replace file="${build.web.dir}/index.jsp" token="#num_compilation#" value="${num_compilacion}" encoding="${source.encoding}"/>
     </target>
 
     <target name="-pre-dist-configureDesarrollo"  >
