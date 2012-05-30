@@ -1,4 +1,4 @@
-<%@page contentType="text/html"%><%@page pageEncoding="UTF-8"%>
+<%@page contentType="text/html;charset=UTF-8"%><%@page pageEncoding="UTF-8"%>
 <%@page import="org.elf.datalayer.*,org.elf.businesslayer.*,org.elf.weblayer.*,org.elf.weblayer.controls.*"   %>
 <%@page import="java.util.*"   %>
 
