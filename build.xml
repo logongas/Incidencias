@@ -189,6 +189,9 @@
     </target>	
 
     <target name="deployDataBaseDesarrollo">
+        <!-- Esta tareas aun está a medio hacer. -->
+        
+        
         <!-- Propiedades del proyecto -->
         <property file="nbproject/project.properties"/>
 
