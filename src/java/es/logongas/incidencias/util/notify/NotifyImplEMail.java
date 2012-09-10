@@ -38,7 +38,7 @@ public class NotifyImplEMail implements Notify {
 
 
 
-                Session session = null;
+                Session session;
 
                 Context initCtx = new InitialContext();
                 Context envCtx = (Context) initCtx.lookup("java:comp/env");
@@ -46,9 +46,9 @@ public class NotifyImplEMail implements Notify {
 
 
 
-                Message message = new MimeMessage(session);
+                MimeMessage message = new MimeMessage(session);
                 message.setRecipients(Message.RecipientType.TO, addressTo);
-                message.setSubject(subject);
+                message.setSubject(subject,"utf-8");
                 message.setContent(cuerpo, "text/plain");
                 Transport.send(message);
             }
